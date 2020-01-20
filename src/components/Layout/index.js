@@ -1,13 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Profile from "./Profile"
+import GlobalStyles from "../../styles/global"
+import AsideText from "../AsideText"
 
 const Layout = ({ children }) => {
   return (
     <>
+      <GlobalStyles />
       <aside>
-        <Profile />
+        <AsideText />
       </aside>
       <main>
         {children}
