@@ -9,6 +9,27 @@ const GlobalStyles = createGlobalStyle`
     font-weight: normal;
     src: local('Quicksand'), url('${fonts.QuicksandRegularTTF}') format('truetype');
   }
+
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Quicksand'), url('${fonts.QuicksandBoldTTF}') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Quicksand'), url('${fonts.QuicksandLightTTF}') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Paytone One'), url('${fonts.PaytoneOneTTF}') format('truetype');
+  }
   
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -62,7 +83,11 @@ const GlobalStyles = createGlobalStyle`
   body {
     line-height: 1;
     font-size: 100%;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", cursive, sans-serif;
+    font-weight: normal;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Paytone One", "Quicksand", serif;
   }
   img {
     display: block;
