@@ -1,15 +1,13 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
 
-export const Button = styled(Link)`
+export const Button = styled.a`
   padding: 12px 24px;
   background: ${props => props.inverse ? "white" : "black"};
   color: ${props => props.inverse ? "black" : "white"};
   font-family: "Quicksand", sans-serif;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: bold;
   font-size: 1.1rem;
-  margin-left: 10px;
   border: 2px solid #191919;
   cursor: pointer;
 

@@ -1,8 +1,9 @@
 import styled from "styled-components"
+import { Button } from "../Button/styles"
 
 export const IntroduceWrapper = styled.div`
   width: 90%;
-  height: 400px;
+  height: 450px;
   display: flex;
   align-self: center;
   padding: 0 50px;
@@ -18,6 +19,7 @@ export const AvatarWrapper = styled.div`
 
 export const InfoWrapper = styled.div`
   padding: 0 30px;
+  margin-top: -20px;
 
   h1 {
     padding: 20px 0;
@@ -31,4 +33,14 @@ export const InfoWrapper = styled.div`
   span {
     font-weight: bold;
   }
+`
+
+export const Buttons = styled.div`
+  display: flex;
+  margin-top: 20px;
+
+  ${Button} {
+    margin: 0 20px 0 0;
+  }
+  
 `

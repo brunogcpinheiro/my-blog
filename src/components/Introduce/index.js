@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import * as S from "./styles"
 
@@ -17,8 +18,14 @@ const Introduce = () => {
         <p>Desenvolvedor Full Stack JavaScript web e mobile e blogger apaixonado por tecnologia.
           Construindo aplicações <span>INCRÍVEIS!</span></p>
         <br />
-        <Button to="/contato">Contrate-me</Button>
-        <Button to="/sobre" inverse>Quem sou eu</Button>
+        <S.Buttons>
+          <Link to="/contato">
+            <Button>Contrate-me</Button>
+          </Link>
+          <Link to="/sobre" inverse>
+            <Button inverse>Quem sou eu</Button>
+          </Link>
+        </S.Buttons>
       </S.InfoWrapper>
     </S.IntroduceWrapper>
   )

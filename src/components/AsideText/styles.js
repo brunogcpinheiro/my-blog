@@ -16,5 +16,5 @@ export const BigName = styled.h1`
   color: #777;
   opacity: 0.1;
   transform: rotate(90deg);
-  font-size: 17rem;
+  font-size: 15rem;
 `
