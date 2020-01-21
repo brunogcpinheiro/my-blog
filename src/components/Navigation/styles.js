@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 export const NavigationWrapper = styled.nav`
   display: flex;
@@ -8,20 +9,26 @@ export const NavigationWrapper = styled.nav`
 `
 
 export const Logo = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background: #191919;
   border-radius: 50%;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
+
+  h1 {
+    margin-bottom: 5px;
+  }
 `
 
 export const Menu = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 
   li:first-child {
     padding-left: 50px;
@@ -30,5 +37,16 @@ export const Menu = styled.ul`
   li {
     padding: 0 10px;
     font-family: "Quicksand";
+    font-size: 0.9rem;
+  }
+`
+
+export const MenuLink = styled(Link)`
+  &:hover {
+     border-bottom: 2px dashed #999; 
+  }
+
+  &:visited, &:active {
+    color: inherit;
   }
 `

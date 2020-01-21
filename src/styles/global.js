@@ -94,6 +94,10 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: auto;
   }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `
 
 export default GlobalStyles
