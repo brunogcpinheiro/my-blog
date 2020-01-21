@@ -1,7 +1,14 @@
 import { createGlobalStyle } from "styled-components"
 
+import * as fonts from "../fonts"
+
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Anton|Quicksand&display=swap');
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Quicksand'), url('${fonts.QuicksandRegularTTF}') format('truetype');
+  }
   
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -55,7 +62,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     line-height: 1;
     font-size: 100%;
-    font-family: "Quicksand", "Anton", sans-serif;
+    font-family: "Quicksand", sans-serif;
   }
   img {
     display: block;
