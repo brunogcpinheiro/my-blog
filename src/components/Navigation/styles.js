@@ -4,8 +4,11 @@ import { Link } from "gatsby"
 export const NavigationWrapper = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 20px 30px;
+  -webkit-box-shadow: 0px 2px 16px -6px rgba(184,184,184,1);
+  -moz-box-shadow: 0px 2px 16px -6px rgba(184,184,184,1);
+  box-shadow: 0px 2px 16px -6px rgba(184,184,184,1);
+  z-index: 2;
 `
 
 export const Logo = styled.div`

@@ -14,14 +14,14 @@ const Layout = ({ children }) => {
       <aside>
         <AsideText />
       </aside>
-      <div>
+      <S.ContentWrapper>
         <nav>
           <Navigation />
         </nav>
         <S.MainWrapper>
           {children}
         </S.MainWrapper>
-      </div>
+      </S.ContentWrapper>
     </S.LayoutWrapper>
   )
 }

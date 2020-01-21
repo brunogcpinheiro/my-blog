@@ -98,6 +98,9 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     color: inherit;
   }
+  p {
+    line-height: 2rem;
+  }
 `
 
 export default GlobalStyles

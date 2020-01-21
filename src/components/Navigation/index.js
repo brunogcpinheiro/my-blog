@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <S.NavigationWrapper>
       <S.Logo>
-        <h1>B.</h1>
+        <h1>B!</h1>
       </S.Logo>
       <S.Menu>
         <li>
