@@ -10,9 +10,9 @@ const active = {
 }
 
 const animation = {
-  paintDrip: true,
+  cover: true,
   duration: 0.7,
-  hex: `#191919`
+  bg: `#191919`
 }
 
 const Navigation = () => {
@@ -55,7 +55,7 @@ const Navigation = () => {
             activeStyle={active.special}
             {...animation}
             direction="down"
-            hex="#78e08f"
+            bg="#78e08f"
             style={{ color: "#78e08f" }}>
             Blog
           </S.MenuLink>
