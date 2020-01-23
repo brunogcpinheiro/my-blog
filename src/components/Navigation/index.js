@@ -1,7 +1,7 @@
 import React from "react"
 
 import * as S from "./styles"
-import Background from "../../images/bg.jpg"
+// import Background from "../../images/bg.jpg"
 
 const active = {
   borderBottom: "2px solid #999"
@@ -9,9 +9,10 @@ const active = {
 
 const animation = {
   cover: true,
-  duration: 2,
+  duration: 3,
+  direction: "right",
   bg: `
-    url(${Background})
+    url(https://media.giphy.com/media/12rDLFYmE491za/giphy.gif)
     center / cover
     no-repeat   
     fixed
