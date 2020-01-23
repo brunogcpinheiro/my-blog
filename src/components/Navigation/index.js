@@ -14,21 +14,21 @@ const Navigation = () => {
       </S.Logo>
       <S.Menu>
         <li>
-          <S.MenuLink to="/" activeStyle={active}>Início</S.MenuLink>
+          <S.MenuLink cover to="/" activeStyle={active}>Início</S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/sobre" activeStyle={active}>Sobre mim</S.MenuLink>
+          <S.MenuLink cover to="/sobre" activeStyle={active}>Sobre mim</S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/projetos" activeStyle={active}>Projetos</S.MenuLink>
+          <S.MenuLink cover to="/projetos" activeStyle={active}>Projetos</S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/habilidades" activeStyle={active}>Habilidades</S.MenuLink>
+          <S.MenuLink cover to="/habilidades" activeStyle={active}>Habilidades</S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/contato" activeStyle={active}>Contato</S.MenuLink>
+          <S.MenuLink cover to="/contato" activeStyle={active}>Contato</S.MenuLink>
         </li>
-      </S.Menu>  
+      </S.Menu>
     </S.NavigationWrapper>
   )
 }

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const NavigationWrapper = styled.nav`
   display: flex;
@@ -44,7 +44,7 @@ export const Menu = styled.ul`
   }
 `
 
-export const MenuLink = styled(Link)`
+export const MenuLink = styled(AniLink)`
   &:hover {
      border-bottom: 2px dashed #999; 
   }
