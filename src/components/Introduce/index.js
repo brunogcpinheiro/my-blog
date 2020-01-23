@@ -1,10 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import * as S from "./styles"
 
 import Avatar from "../Avatar"
 import Button from "../Button"
+
+const animation = {
+  paintDrip: true,
+  duration: 0.7,
+  hex: `#191919`
+}
 
 const Introduce = () => {
   return (
@@ -19,12 +25,12 @@ const Introduce = () => {
           Construindo aplicações <span>INCRÍVEIS!</span></p>
         <br />
         <S.Buttons>
-          <Link to="/contato">
+          <AniLink {...animation} direction="down" to="/contato">
             <Button>Contrate-me</Button>
-          </Link>
-          <Link to="/sobre" inverse>
-            <Button inverse>Quem sou eu</Button>
-          </Link>
+          </AniLink>
+          <AniLink {...animation} direction="up" to="/sobre">
+            <Button>Quem sou eu</Button>
+          </AniLink>
         </S.Buttons>
       </S.InfoWrapper>
     </S.IntroduceWrapper>

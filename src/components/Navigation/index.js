@@ -2,24 +2,17 @@ import React from "react"
 
 import * as S from "./styles"
 // import Background from "../../images/bg.jpg"
+// import Biker from "../../images/biker.gif"
 
 const active = {
-  borderBottom: "2px solid #999"
+  normal: { borderBottom: "2px solid #999" },
+  special: { borderBottom: "2px solid #78e08f" }
 }
 
 const animation = {
-  cover: true,
-  duration: 3,
-  direction: "right",
-  bg: `
-    url(https://media.giphy.com/media/12rDLFYmE491za/giphy.gif)
-    center / cover
-    no-repeat   
-    fixed
-    padding-box
-    content-box
-    white
-  `
+  paintDrip: true,
+  duration: 0.7,
+  hex: `#191919`
 }
 
 const Navigation = () => {
@@ -30,19 +23,50 @@ const Navigation = () => {
       </S.Logo>
       <S.Menu>
         <li>
-          <S.MenuLink to="/" activeStyle={active} {...animation}>Início</S.MenuLink>
+          <S.MenuLink
+            to="/"
+            activeStyle={active.normal}
+            {...animation}
+            direction="right">
+            Início
+          </S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/sobre" activeStyle={active} {...animation}>Sobre mim</S.MenuLink>
+          <S.MenuLink
+            to="/sobre"
+            activeStyle={active.normal}
+            {...animation}
+            direction="left">
+            Sobre mim
+          </S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/projetos" activeStyle={active} {...animation}>Projetos</S.MenuLink>
+          <S.MenuLink
+            to="/projetos"
+            activeStyle={active.normal}
+            {...animation}
+            direction="up">
+            Projetos
+          </S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/habilidades" activeStyle={active} {...animation}>Habilidades</S.MenuLink>
+          <S.MenuLink
+            to="/blog"
+            activeStyle={active.special}
+            {...animation}
+            direction="down"
+            hex="#78e08f"
+            style={{ color: "#78e08f" }}>
+            Blog
+          </S.MenuLink>
         </li>
         <li>
-          <S.MenuLink to="/contato" activeStyle={active} {...animation}>Contato</S.MenuLink>
+          <S.MenuLink
+            to="/contato"
+            activeStyle={active.normal}
+            {...animation}>
+            Contato
+          </S.MenuLink>
         </li>
       </S.Menu>
     </S.NavigationWrapper>

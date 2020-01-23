@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const Button = styled.a`
   padding: 12px 24px;
-  background: ${props => props.inverse ? "white" : "black"};
-  color: ${props => props.inverse ? "black" : "white"};
+  background: #191919;
+  color: #fff;
   font-family: "Quicksand", sans-serif;
   border-radius: 10px;
   font-weight: bold;

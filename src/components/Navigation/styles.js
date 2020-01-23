@@ -46,7 +46,7 @@ export const Menu = styled.ul`
 
 export const MenuLink = styled(AniLink)`
   &:hover {
-     border-bottom: 2px dashed #999; 
+     border-bottom: 2px dashed ${props => props.borderColor}; 
   }
 
   &:visited, &:active {
