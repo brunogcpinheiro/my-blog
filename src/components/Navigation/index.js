@@ -3,6 +3,7 @@ import React from "react"
 import * as S from "./styles"
 // import Background from "../../images/bg.jpg"
 // import Biker from "../../images/biker.gif"
+import SocialLinks from "../SocialLinks"
 
 const active = {
   normal: { borderBottom: "2px solid #999" },
@@ -69,6 +70,7 @@ const Navigation = () => {
           </S.MenuLink>
         </li>
       </S.Menu>
+      <SocialLinks />
     </S.NavigationWrapper>
   )
 }

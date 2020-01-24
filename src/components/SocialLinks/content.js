@@ -1,9 +1,3 @@
-// environment variables in future
-const secret = {
-  phone: "+5534999999999",
-  text: "Olá, gostaria de mais informações!"
-}
-
 const links = [
   {
     label: "Github",
@@ -18,7 +12,9 @@ const links = [
     url: "https://instagram.com/brunogcarpinellip"
   },
   {
-    label: "WhatsApp",
-    url: `https://api.whatsapp.com/send?phone=${secret.phone}&text=${secret.text}`
-  },
+    label: "Email",
+    url: "mailto:brunogcpinheiro@gmail.com"
+  }
 ]
+
+export default links

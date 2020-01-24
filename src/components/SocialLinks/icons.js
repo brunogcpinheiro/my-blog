@@ -1,14 +1,12 @@
 import { Github } from "styled-icons/boxicons-logos/Github"
 import { Twitter } from "styled-icons/boxicons-logos/Twitter"
-import { InstagramAlt } from "styled-icons/boxicons-logos/InstagramAlt"
-import { Whatsapp } from "styled-icons/boxicons-logos/Whatsapp"
+import { InstagramAlt as Instagram } from "styled-icons/boxicons-logos/InstagramAlt"
 import { Email } from "styled-icons/material/Email"
 
 const Icons = {
   Github,
   Twitter,
-  InstagramAlt,
-  Whatsapp,
+  Instagram,
   Email
 }
 
