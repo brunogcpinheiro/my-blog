@@ -6,6 +6,7 @@ import * as S from "./styles"
 
 import AsideText from "../AsideText"
 import Navigation from "../Navigation"
+import Footer from "../Footer"
 
 const Layout = ({ children }) => {
   return (
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
         <S.MainWrapper>
           {children}
         </S.MainWrapper>
+        <Footer />
       </S.ContentWrapper>
     </S.LayoutWrapper>
   )
