@@ -19,3 +19,5 @@ export const MainWrapper = styled.section`
   width: 100%;
   height: 100vh;
 `
+
+// 1090px fazer media query e retirar o asidetext
