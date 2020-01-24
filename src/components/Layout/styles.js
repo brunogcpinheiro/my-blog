@@ -8,13 +8,14 @@ export const LayoutWrapper = styled.main`
 
 export const ContentWrapper = styled.section`
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 `
 
-export const MainWrapper = styled.main`
+export const MainWrapper = styled.section`
   display: flex;
   width: 100%;
-  height: calc(100vh - 150px);
+  height: 100vh;
 `

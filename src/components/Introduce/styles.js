@@ -3,7 +3,6 @@ import { Button } from "../Button/styles"
 
 export const IntroduceWrapper = styled.div`
   width: 90%;
-  height: 450px;
   display: flex;
   align-self: center;
   padding: 0 50px;
@@ -19,7 +18,6 @@ export const AvatarWrapper = styled.div`
 
 export const InfoWrapper = styled.div`
   padding: 0 30px;
-  margin-top: -20px;
 
   h1 {
     padding: 10px 0;

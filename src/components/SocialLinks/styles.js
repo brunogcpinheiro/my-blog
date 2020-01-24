@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const SocialLinksWrapper = styled.nav`
-  width: 100%;
 `
 
 export const SocialLinksList = styled.ul`
@@ -10,7 +9,9 @@ export const SocialLinksList = styled.ul`
   list-style: none;
 `
 
-export const SocialLinksItem = styled.li``
+export const SocialLinksItem = styled.li`
+  padding: 0 10px;
+`
 
 export const SocialLinksLink = styled.a`
   text-decoration: none;

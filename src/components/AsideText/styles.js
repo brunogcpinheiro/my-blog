@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const AsideWrapper = styled.aside`
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #e5e5e5;
   width: 150px;
   display: flex;
   align-items: center;
