@@ -17,6 +17,7 @@ const SocialLinks = () => {
               <S.SocialLinksLink
                 href={link.url}
                 title={link.label}
+                style={{ color: link.iconColor }}
                 target="_blank"
                 rel="noopener noreferrer"
               >

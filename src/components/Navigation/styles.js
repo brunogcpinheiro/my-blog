@@ -4,11 +4,13 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 export const NavigationWrapper = styled.nav`
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding: 20px 30px;
-  -webkit-box-shadow: 0px 2px 16px -6px rgba(184,184,184,1);
-  -moz-box-shadow: 0px 2px 16px -6px rgba(184,184,184,1);
-  box-shadow: 0px 2px 16px -6px rgba(184,184,184,1);
+  -webkit-box-shadow: 0px 1px 16px -6px rgba(184,184,184,1);
+  -moz-box-shadow: 0px 1px 16px -6px rgba(184,184,184,1);
+  box-shadow: 0px 1px 16px -6px rgba(184,184,184,1);
   z-index: 2;
+  width: 100%;
 `
 
 export const Logo = styled.div`

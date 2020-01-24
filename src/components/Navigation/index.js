@@ -28,7 +28,9 @@ const Navigation = () => {
             to="/"
             activeStyle={active.normal}
             {...animation}
-            direction="right">
+            direction="right"
+            title="inicio"
+            >
             Início
           </S.MenuLink>
         </li>
@@ -37,7 +39,9 @@ const Navigation = () => {
             to="/sobre"
             activeStyle={active.normal}
             {...animation}
-            direction="left">
+            direction="left"
+            title="sobre"
+            >
             Sobre mim
           </S.MenuLink>
         </li>
@@ -46,7 +50,9 @@ const Navigation = () => {
             to="/projetos"
             activeStyle={active.normal}
             {...animation}
-            direction="up">
+            direction="up"
+            title="projetos"
+            >
             Projetos
           </S.MenuLink>
         </li>
@@ -57,7 +63,9 @@ const Navigation = () => {
             {...animation}
             direction="down"
             bg="#78e08f"
-            style={{ color: "#78e08f" }}>
+            style={{ color: "#78e08f" }}
+            title="blog"
+            >
             Blog
           </S.MenuLink>
         </li>
@@ -65,7 +73,9 @@ const Navigation = () => {
           <S.MenuLink
             to="/contato"
             activeStyle={active.normal}
-            {...animation}>
+            {...animation}
+            title="contato"
+            >
             Contato
           </S.MenuLink>
         </li>

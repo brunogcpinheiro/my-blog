@@ -7,18 +7,18 @@ export const SocialLinksWrapper = styled.nav`
 export const SocialLinksList = styled.ul`
   align-items: center;
   display: flex;
-  justify-content: space-around;
   list-style: none;
 `
 
 export const SocialLinksItem = styled.li``
 
 export const SocialLinksLink = styled.a`
-  color: #8899a6;
   text-decoration: none;
   transition: color 0.5s;
+  opacity: 0.7;
+
   &:hover {
-    color: #1fa1f2;
+    opacity: 1;
   }
 `
 
