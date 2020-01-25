@@ -1,8 +1,6 @@
 import React from "react"
 
 import * as S from "./styles"
-// import Background from "../../images/bg.jpg"
-// import Biker from "../../images/biker.gif"
 import SocialLinks from "../SocialLinks"
 
 const active = {
@@ -12,7 +10,7 @@ const active = {
 
 const animation = {
   cover: true,
-  duration: 0.7,
+  duration: 1,
   bg: `#191919`
 }
 

@@ -2,10 +2,10 @@ import styled from "styled-components"
 import { Button } from "../Button/styles"
 
 export const IntroduceWrapper = styled.div`
-  width: 90%;
+  width: 100%;
   display: flex;
+  padding: 0 180px;
   align-self: center;
-  padding: 0 50px;
   margin: -100px auto 0 auto;
   align-items: center;
   border-radius: 10px;
