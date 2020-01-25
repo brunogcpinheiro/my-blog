@@ -34,13 +34,13 @@ const Navigation = () => {
         </li>
         <li>
           <S.MenuLink
-            to="/sobre"
+            to="/conhecimentos"
             activeStyle={active.normal}
             {...animation}
             direction="left"
-            title="sobre"
+            title="conhecimentos"
             >
-            Sobre mim
+            Conhecimentos
           </S.MenuLink>
         </li>
         <li>
