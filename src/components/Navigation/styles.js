@@ -10,6 +10,7 @@ export const NavigationWrapper = styled.nav`
   -moz-box-shadow: 0px 1px 16px -6px #666;
   box-shadow: 0px 1px 16px -6px #666;
   width: 100%;
+  z-index: 99;
 `
 
 export const Logo = styled.div`

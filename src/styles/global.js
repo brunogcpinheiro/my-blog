@@ -79,6 +79,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Quicksand", cursive, sans-serif;
   }
   body {
     line-height: 1;
@@ -100,6 +101,27 @@ const GlobalStyles = createGlobalStyle`
   }
   p {
     line-height: 2rem;
+  }
+
+  .tabs {
+    width: 100%;
+  }
+
+  .tab-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tab {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-panel {
+    background: tomato;
+    width: 100%;
   }
 `
 
