@@ -21,7 +21,7 @@ const Introduce = () => {
       <S.InfoWrapper>
         <p>Olá, eu sou</p>
         <h1>Bruno Carpinelli</h1>
-        <p>Desenvolvedor Full Stack JavaScript web e mobile e blogger apaixonado por tecnologia.
+        <p>Desenvolvedor Full Stack JavaScript desktop, web, mobile e blogger apaixonado por tecnologia.
           Construindo aplicações <span>INCRÍVEIS!</span></p>
         <br />
         <S.Buttons>
