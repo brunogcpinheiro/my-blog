@@ -8,7 +8,6 @@ import links from "./content"
 import * as S from "./styles"
 
 const TechsMenu = () => {
-  const [tabs, setTabs] = useState(["Front-End", "Back-End", "Databases", "DevOps"])
   const [tabContents, setTabContents] = useState(
     [
       { id: "frontend", title: "Front-End", text: "Frontend message" },
